@@ -184,6 +184,10 @@ def _write_installer(*, ctx, name = None, install_path, xcodeproj):
 # Rule
 
 def _xcodeproj_impl(ctx):
+    compilation_mode = ctx.var["COMPILATION_MODE"]
+    if compilation_mode != "dbg":
+        fail("The xcodeproj rule currently requires `--compilation_mode=dbg`.")
+
     project_name = ctx.attr.project_name or ctx.attr.name
     infos = [
         dep[XcodeProjInfo]

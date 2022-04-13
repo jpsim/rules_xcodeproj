@@ -106,11 +106,11 @@
         },
         "ExampleResources/Info.plist",
         {
-            "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC/CoreUtilsObjC.swift.modulemap",
+            "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC/CoreUtilsObjC.swift.modulemap",
             "t": "g"
         },
         {
-            "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Utils/Utils.swift.modulemap",
+            "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Utils/Utils.swift.modulemap",
             "t": "g"
         },
         "Example/Assets.xcassets/AppIcon.appiconset/Contents.json",
@@ -123,21 +123,21 @@
         "Example/Assets.xcassets/AppIcon.appiconset/ipadpro_2x_icon.png",
         "Example/Info.plist",
         {
-            "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example/Example-intermediates/Info.plist",
+            "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example/Example-intermediates/Info.plist",
             "t": "g"
         },
         "TestingUtils/Greeting.swift.stencil",
         "TestingUtils/Answer.swift.stencil",
         {
-            "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/Greeting.swift",
+            "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/Greeting.swift",
             "t": "g"
         },
         {
-            "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/Answer.swift",
+            "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/Answer.swift",
             "t": "g"
         },
         {
-            "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swift.modulemap",
+            "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swift.modulemap",
             "t": "g"
         },
         {
@@ -145,11 +145,11 @@
             "t": "e"
         },
         {
-            "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.__internal__.__test_bundle-intermediates/Info.plist",
+            "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.__internal__.__test_bundle-intermediates/Info.plist",
             "t": "g"
         },
         {
-            "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleObjcTests/ExampleObjcTests.__internal__.__test_bundle-intermediates/Info.plist",
+            "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleObjcTests/ExampleObjcTests.__internal__.__test_bundle-intermediates/Info.plist",
             "t": "g"
         },
         {
@@ -157,7 +157,7 @@
             "t": "e"
         },
         {
-            "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.__internal__.__test_bundle-intermediates/Info.plist",
+            "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.__internal__.__test_bundle-intermediates/Info.plist",
             "t": "g"
         }
     ],
@@ -165,25 +165,25 @@
     "label": "//test/fixtures:fixture",
     "name": "project",
     "target_merges": [
-        "//Example:Example.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//Example:Example.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         [
-            "//Example:Example applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+            "//Example:Example applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
         ],
-        "//ExampleObjcTests:ExampleObjcTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//ExampleObjcTests:ExampleObjcTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         [
-            "//ExampleObjcTests:ExampleObjcTests.__internal__.__test_bundle applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+            "//ExampleObjcTests:ExampleObjcTests.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
         ],
-        "//ExampleTests:ExampleTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//ExampleTests:ExampleTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         [
-            "//ExampleTests:ExampleTests.__internal__.__test_bundle applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+            "//ExampleTests:ExampleTests.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
         ],
-        "//ExampleUITests:ExampleUITests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//ExampleUITests:ExampleUITests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         [
-            "//ExampleUITests:ExampleUITests.__internal__.__test_bundle applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+            "//ExampleUITests:ExampleUITests.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
         ]
     ],
     "targets": [
-        "//CoreUtilsObjC:CoreUtilsObjC ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//CoreUtilsObjC:CoreUtilsObjC ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
@@ -191,7 +191,6 @@
                 "ENABLE_BITCODE": false,
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\""
@@ -203,6 +202,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -214,6 +214,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -233,7 +234,7 @@
                 "SWIFT_OPTIMIZATION_LEVEL": "-Onone",
                 "SWIFT_VERSION": "5"
             },
-            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [],
             "frameworks": [],
             "info_plist": null,
@@ -252,7 +253,7 @@
             "modulemaps": [],
             "name": "CoreUtilsObjC",
             "outputs": {},
-            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
+            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -262,7 +263,7 @@
             "product": {
                 "name": "CoreUtilsObjC",
                 "path": {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC/libCoreUtilsObjC.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC/libCoreUtilsObjC.a",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.library.static"
@@ -279,14 +280,14 @@
                 "includes": [
                     "CoreUtilsObjC",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
                         "t": "g"
                     }
                 ],
                 "quote_includes": [
                     ".",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin",
                         "t": "g"
                     }
                 ]
@@ -294,13 +295,12 @@
             "swiftmodules": [],
             "test_host": null
         },
-        "//Example:Example applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//Example:Example applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\""
@@ -312,6 +312,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -323,6 +324,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -340,9 +342,9 @@
                 "SWIFT_VERSION": "5",
                 "TARGETED_DEVICE_FAMILY": "1"
             },
-            "configuration": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [
-                "//Example:Example.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+                "//Example:Example.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
             ],
             "frameworks": [
                 {
@@ -351,7 +353,7 @@
                 }
             ],
             "info_plist": {
-                "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example/Example-intermediates/Info.plist",
+                "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example/Example-intermediates/Info.plist",
                 "t": "g"
             },
             "inputs": {
@@ -378,15 +380,15 @@
             "label": "//Example:Example",
             "links": [
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Utils/libUtils.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Utils/libUtils.a",
                     "t": "g"
                 },
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC/libCoreUtilsObjC.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC/libCoreUtilsObjC.a",
                     "t": "g"
                 },
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example/libExample.library.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example/libExample.library.a",
                     "t": "g"
                 },
                 "third_party/ExampleFramework.framework/ExampleFramework"
@@ -396,7 +398,7 @@
             "outputs": {
                 "dsyms": []
             },
-            "package_bin_dir": "bazel-out/applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example",
+            "package_bin_dir": "bazel-out/applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -406,14 +408,14 @@
             "product": {
                 "name": "Example",
                 "path": {
-                    "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example/Example_archive-root/Payload/Example.app",
+                    "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example/Example_archive-root/Payload/Example.app",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.application"
             },
             "resource_bundles": [
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleResources/ExampleResources.bundle",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleResources/ExampleResources.bundle",
                     "t": "g"
                 }
             ],
@@ -421,7 +423,7 @@
             "swiftmodules": [],
             "test_host": null
         },
-        "//Example:Example.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//Example:Example.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
@@ -430,7 +432,6 @@
                 "ENABLE_TESTABILITY": true,
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\""
@@ -442,6 +443,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -453,6 +455,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -465,7 +468,7 @@
                     "SwiftUI",
                     "-ObjC"
                 ],
-                "OTHER_SWIFT_FLAGS": "-Fthird_party -Fexternal/examples_ios_app_external",
+                "OTHER_SWIFT_FLAGS": "-g -Fthird_party -Fexternal/examples_ios_app_external",
                 "PRODUCT_MODULE_NAME": "Example",
                 "PRODUCT_NAME": "Example.library",
                 "SUPPORTED_PLATFORMS": "iphonesimulator",
@@ -474,10 +477,10 @@
                 "SWIFT_OPTIMIZATION_LEVEL": "-Onone",
                 "SWIFT_VERSION": "5"
             },
-            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [
-                "//ExampleResources:ExampleResources ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
-                "//Utils:Utils ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+                "//ExampleResources:ExampleResources ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
+                "//Utils:Utils ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
             ],
             "frameworks": [],
             "info_plist": null,
@@ -498,11 +501,11 @@
                     "t": "e"
                 },
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC/CoreUtilsObjC.swift.modulemap",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC/CoreUtilsObjC.swift.modulemap",
                     "t": "g"
                 },
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Utils/Utils.swift.modulemap",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Utils/Utils.swift.modulemap",
                     "t": "g"
                 }
             ],
@@ -510,12 +513,12 @@
             "outputs": {
                 "swift_module": {
                     "name": "Example.swiftmodule",
-                    "swiftdoc": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example/Example.swiftdoc",
-                    "swiftmodule": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example/Example.swiftmodule",
-                    "swiftsourceinfo": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example/Example.swiftsourceinfo"
+                    "swiftdoc": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example/Example.swiftdoc",
+                    "swiftmodule": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example/Example.swiftmodule",
+                    "swiftsourceinfo": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example/Example.swiftsourceinfo"
                 }
             },
-            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example",
+            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -525,7 +528,7 @@
             "product": {
                 "name": "Example.library",
                 "path": {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example/libExample.library.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example/libExample.library.a",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.library.static"
@@ -542,14 +545,14 @@
                 "includes": [
                     "CoreUtilsObjC",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
                         "t": "g"
                     }
                 ],
                 "quote_includes": [
                     ".",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin",
                         "t": "g"
                     }
                 ]
@@ -557,13 +560,12 @@
             "swiftmodules": [],
             "test_host": null
         },
-        "//ExampleObjcTests:ExampleObjcTests.__internal__.__test_bundle applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//ExampleObjcTests:ExampleObjcTests.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\""
@@ -575,6 +577,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -586,6 +589,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -603,14 +607,14 @@
                 "SWIFT_VERSION": "5",
                 "TARGETED_DEVICE_FAMILY": "1,2"
             },
-            "configuration": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [
-                "//ExampleObjcTests:ExampleObjcTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
-                "//Example:Example applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+                "//ExampleObjcTests:ExampleObjcTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
+                "//Example:Example applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
             ],
             "frameworks": [],
             "info_plist": {
-                "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleObjcTests/ExampleObjcTests.__internal__.__test_bundle-intermediates/Info.plist",
+                "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleObjcTests/ExampleObjcTests.__internal__.__test_bundle-intermediates/Info.plist",
                 "t": "g"
             },
             "inputs": {
@@ -627,11 +631,11 @@
             "label": "//ExampleObjcTests:ExampleObjcTests.__internal__.__test_bundle",
             "links": [
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleObjcTests/libExampleObjcTests.library.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleObjcTests/libExampleObjcTests.library.a",
                     "t": "g"
                 },
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/libTestingUtils.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/libTestingUtils.a",
                     "t": "g"
                 }
             ],
@@ -640,7 +644,7 @@
             "outputs": {
                 "dsyms": []
             },
-            "package_bin_dir": "bazel-out/applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleObjcTests",
+            "package_bin_dir": "bazel-out/applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleObjcTests",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -650,7 +654,7 @@
             "product": {
                 "name": "ExampleObjcTests",
                 "path": {
-                    "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleObjcTests/ExampleObjcTests.__internal__.__test_bundle_archive-root/ExampleObjcTests.xctest",
+                    "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleObjcTests/ExampleObjcTests.__internal__.__test_bundle_archive-root/ExampleObjcTests.xctest",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.bundle.unit-test"
@@ -658,9 +662,9 @@
             "resource_bundles": [],
             "search_paths": {},
             "swiftmodules": [],
-            "test_host": "//Example:Example applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+            "test_host": "//Example:Example applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
         },
-        "//ExampleObjcTests:ExampleObjcTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//ExampleObjcTests:ExampleObjcTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
@@ -670,7 +674,6 @@
                 "ENABLE_TESTING_SEARCH_PATHS": true,
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\"",
@@ -683,6 +686,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -694,6 +698,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -713,11 +718,11 @@
                 "SWIFT_OPTIMIZATION_LEVEL": "-Onone",
                 "SWIFT_VERSION": "5"
             },
-            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [
-                "//Example:Example.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
-                "//TestingUtils:TestingUtils ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
-                "//Utils:Utils ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+                "//Example:Example.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
+                "//TestingUtils:TestingUtils ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
+                "//Utils:Utils ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
             ],
             "frameworks": [],
             "info_plist": null,
@@ -732,7 +737,7 @@
             "modulemaps": [],
             "name": "ExampleObjcTests.library",
             "outputs": {},
-            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleObjcTests",
+            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleObjcTests",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -742,7 +747,7 @@
             "product": {
                 "name": "ExampleObjcTests.library",
                 "path": {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleObjcTests/libExampleObjcTests.library.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleObjcTests/libExampleObjcTests.library.a",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.library.static"
@@ -759,14 +764,14 @@
                 "includes": [
                     "CoreUtilsObjC",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
                         "t": "g"
                     }
                 ],
                 "quote_includes": [
                     ".",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin",
                         "t": "g"
                     }
                 ]
@@ -774,7 +779,7 @@
             "swiftmodules": [],
             "test_host": null
         },
-        "//ExampleResources:ExampleResources ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//ExampleResources:ExampleResources ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "GENERATE_INFOPLIST_FILE": true,
@@ -783,7 +788,7 @@
                 "PRODUCT_NAME": "ExampleResources",
                 "SUPPORTED_PLATFORMS": "iphonesimulator"
             },
-            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [],
             "frameworks": [],
             "info_plist": null,
@@ -804,7 +809,7 @@
             "modulemaps": [],
             "name": "ExampleResources",
             "outputs": {},
-            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleResources",
+            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleResources",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -814,7 +819,7 @@
             "product": {
                 "name": "ExampleResources",
                 "path": {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleResources/ExampleResources.bundle",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleResources/ExampleResources.bundle",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.bundle"
@@ -824,13 +829,12 @@
             "swiftmodules": [],
             "test_host": null
         },
-        "//ExampleTests:ExampleTests.__internal__.__test_bundle applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//ExampleTests:ExampleTests.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\""
@@ -842,6 +846,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -853,6 +858,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -870,14 +876,14 @@
                 "SWIFT_VERSION": "5",
                 "TARGETED_DEVICE_FAMILY": "1,2"
             },
-            "configuration": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [
-                "//ExampleTests:ExampleTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
-                "//Example:Example applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+                "//ExampleTests:ExampleTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
+                "//Example:Example applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
             ],
             "frameworks": [],
             "info_plist": {
-                "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.__internal__.__test_bundle-intermediates/Info.plist",
+                "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.__internal__.__test_bundle-intermediates/Info.plist",
                 "t": "g"
             },
             "inputs": {
@@ -887,11 +893,11 @@
             "label": "//ExampleTests:ExampleTests.__internal__.__test_bundle",
             "links": [
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/libTestingUtils.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/libTestingUtils.a",
                     "t": "g"
                 },
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleTests/libExampleTests.library.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleTests/libExampleTests.library.a",
                     "t": "g"
                 }
             ],
@@ -900,7 +906,7 @@
             "outputs": {
                 "dsyms": []
             },
-            "package_bin_dir": "bazel-out/applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleTests",
+            "package_bin_dir": "bazel-out/applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleTests",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -910,22 +916,22 @@
             "product": {
                 "name": "ExampleTests",
                 "path": {
-                    "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.__internal__.__test_bundle_archive-root/ExampleTests.xctest",
+                    "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.__internal__.__test_bundle_archive-root/ExampleTests.xctest",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.bundle.unit-test"
             },
             "resource_bundles": [
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleResources/ExampleResources.bundle",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleResources/ExampleResources.bundle",
                     "t": "g"
                 }
             ],
             "search_paths": {},
             "swiftmodules": [],
-            "test_host": "//Example:Example applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+            "test_host": "//Example:Example applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
         },
-        "//ExampleTests:ExampleTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//ExampleTests:ExampleTests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
@@ -935,7 +941,6 @@
                 "ENABLE_TESTING_SEARCH_PATHS": true,
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\"",
@@ -948,6 +953,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -959,6 +965,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -971,7 +978,7 @@
                     "SwiftUI",
                     "-ObjC"
                 ],
-                "OTHER_SWIFT_FLAGS": "-Fthird_party -Fexternal/examples_ios_app_external",
+                "OTHER_SWIFT_FLAGS": "-g -Fthird_party -Fexternal/examples_ios_app_external",
                 "PRODUCT_MODULE_NAME": "ExampleTests",
                 "PRODUCT_NAME": "ExampleTests.library",
                 "SUPPORTED_PLATFORMS": "iphonesimulator",
@@ -980,12 +987,12 @@
                 "SWIFT_OPTIMIZATION_LEVEL": "-Onone",
                 "SWIFT_VERSION": "5"
             },
-            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [
-                "//Example:Example.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
-                "//ExampleResources:ExampleResources ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
-                "//TestingUtils:TestingUtils ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
-                "//Utils:Utils ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+                "//Example:Example.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
+                "//ExampleResources:ExampleResources ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
+                "//TestingUtils:TestingUtils ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
+                "//Utils:Utils ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
             ],
             "frameworks": [],
             "info_plist": null,
@@ -1005,15 +1012,15 @@
                     "t": "e"
                 },
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC/CoreUtilsObjC.swift.modulemap",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC/CoreUtilsObjC.swift.modulemap",
                     "t": "g"
                 },
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Utils/Utils.swift.modulemap",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Utils/Utils.swift.modulemap",
                     "t": "g"
                 },
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swift.modulemap",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swift.modulemap",
                     "t": "g"
                 }
             ],
@@ -1021,12 +1028,12 @@
             "outputs": {
                 "swift_module": {
                     "name": "ExampleTests.swiftmodule",
-                    "swiftdoc": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.swiftdoc",
-                    "swiftmodule": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.swiftmodule",
-                    "swiftsourceinfo": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.swiftsourceinfo"
+                    "swiftdoc": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.swiftdoc",
+                    "swiftmodule": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.swiftmodule",
+                    "swiftsourceinfo": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleTests/ExampleTests.swiftsourceinfo"
                 }
             },
-            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleTests",
+            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleTests",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -1036,7 +1043,7 @@
             "product": {
                 "name": "ExampleTests.library",
                 "path": {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleTests/libExampleTests.library.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleTests/libExampleTests.library.a",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.library.static"
@@ -1053,37 +1060,36 @@
                 "includes": [
                     "CoreUtilsObjC",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
                         "t": "g"
                     }
                 ],
                 "quote_includes": [
                     ".",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin",
                         "t": "g"
                     }
                 ]
             },
             "swiftmodules": [
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Example/Example.swiftmodule",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Example/Example.swiftmodule",
                     "t": "g"
                 },
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swiftmodule",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swiftmodule",
                     "t": "g"
                 }
             ],
             "test_host": null
         },
-        "//ExampleUITests:ExampleUITests.__internal__.__test_bundle applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//ExampleUITests:ExampleUITests.__internal__.__test_bundle applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\""
@@ -1095,6 +1101,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -1106,6 +1113,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -1123,14 +1131,14 @@
                 "SWIFT_VERSION": "5",
                 "TARGETED_DEVICE_FAMILY": "1,2"
             },
-            "configuration": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [
-                "//ExampleUITests:ExampleUITests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
-                "//Example:Example applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+                "//ExampleUITests:ExampleUITests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
+                "//Example:Example applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
             ],
             "frameworks": [],
             "info_plist": {
-                "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.__internal__.__test_bundle-intermediates/Info.plist",
+                "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.__internal__.__test_bundle-intermediates/Info.plist",
                 "t": "g"
             },
             "inputs": {
@@ -1140,7 +1148,7 @@
             "label": "//ExampleUITests:ExampleUITests.__internal__.__test_bundle",
             "links": [
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleUITests/libExampleUITests.library.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleUITests/libExampleUITests.library.a",
                     "t": "g"
                 }
             ],
@@ -1149,7 +1157,7 @@
             "outputs": {
                 "dsyms": []
             },
-            "package_bin_dir": "bazel-out/applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleUITests",
+            "package_bin_dir": "bazel-out/applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleUITests",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -1159,22 +1167,22 @@
             "product": {
                 "name": "ExampleUITests",
                 "path": {
-                    "_": "applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.__internal__.__test_bundle_archive-root/ExampleUITests.xctest",
+                    "_": "applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.__internal__.__test_bundle_archive-root/ExampleUITests.xctest",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.bundle.ui-testing"
             },
             "resource_bundles": [
                 {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/external/examples_ios_app_external/ExternalResources.bundle",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/external/examples_ios_app_external/ExternalResources.bundle",
                     "t": "g"
                 }
             ],
             "search_paths": {},
             "swiftmodules": [],
-            "test_host": "//Example:Example applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+            "test_host": "//Example:Example applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
         },
-        "//ExampleUITests:ExampleUITests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//ExampleUITests:ExampleUITests.library ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
@@ -1184,7 +1192,6 @@
                 "ENABLE_TESTING_SEARCH_PATHS": true,
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\""
@@ -1196,6 +1203,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -1207,6 +1215,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -1215,6 +1224,7 @@
                 "OTHER_LDFLAGS": [
                     "-ObjC"
                 ],
+                "OTHER_SWIFT_FLAGS": "-g",
                 "PRODUCT_MODULE_NAME": "ExampleUITests",
                 "PRODUCT_NAME": "ExampleUITests.library",
                 "SUPPORTED_PLATFORMS": "iphonesimulator",
@@ -1223,9 +1233,9 @@
                 "SWIFT_OPTIMIZATION_LEVEL": "-Onone",
                 "SWIFT_VERSION": "5"
             },
-            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [
-                "@examples_ios_app_external//:ExternalResources ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+                "@examples_ios_app_external//:ExternalResources ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
             ],
             "frameworks": [],
             "info_plist": null,
@@ -1243,12 +1253,12 @@
             "outputs": {
                 "swift_module": {
                     "name": "ExampleUITests.swiftmodule",
-                    "swiftdoc": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.swiftdoc",
-                    "swiftmodule": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.swiftmodule",
-                    "swiftsourceinfo": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.swiftsourceinfo"
+                    "swiftdoc": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.swiftdoc",
+                    "swiftmodule": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.swiftmodule",
+                    "swiftsourceinfo": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleUITests/ExampleUITests.swiftsourceinfo"
                 }
             },
-            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleUITests",
+            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleUITests",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -1258,7 +1268,7 @@
             "product": {
                 "name": "ExampleUITests.library",
                 "path": {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/ExampleUITests/libExampleUITests.library.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/ExampleUITests/libExampleUITests.library.a",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.library.static"
@@ -1268,7 +1278,7 @@
             "swiftmodules": [],
             "test_host": null
         },
-        "//TestingUtils:TestingUtils ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//TestingUtils:TestingUtils ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
@@ -1278,7 +1288,6 @@
                 "ENABLE_TESTING_SEARCH_PATHS": true,
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\"",
@@ -1291,6 +1300,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -1302,6 +1312,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -1310,6 +1321,7 @@
                 "OTHER_LDFLAGS": [
                     "-ObjC"
                 ],
+                "OTHER_SWIFT_FLAGS": "-g",
                 "PRODUCT_MODULE_NAME": "TestingUtils",
                 "PRODUCT_NAME": "TestingUtils",
                 "SUPPORTED_PLATFORMS": "iphonesimulator",
@@ -1318,7 +1330,7 @@
                 "SWIFT_OPTIMIZATION_LEVEL": "-Onone",
                 "SWIFT_VERSION": "5"
             },
-            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [],
             "frameworks": [],
             "info_plist": null,
@@ -1326,7 +1338,7 @@
                 "contains_generated_files": true,
                 "srcs": [
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swift",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swift",
                         "t": "g"
                     }
                 ]
@@ -1339,12 +1351,12 @@
             "outputs": {
                 "swift_module": {
                     "name": "TestingUtils.swiftmodule",
-                    "swiftdoc": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swiftdoc",
-                    "swiftmodule": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swiftmodule",
-                    "swiftsourceinfo": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swiftsourceinfo"
+                    "swiftdoc": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swiftdoc",
+                    "swiftmodule": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swiftmodule",
+                    "swiftsourceinfo": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/TestingUtils.swiftsourceinfo"
                 }
             },
-            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils",
+            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -1354,7 +1366,7 @@
             "product": {
                 "name": "TestingUtils",
                 "path": {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/TestingUtils/libTestingUtils.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/TestingUtils/libTestingUtils.a",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.library.static"
@@ -1364,7 +1376,7 @@
                 "quote_includes": [
                     ".",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin",
                         "t": "g"
                     }
                 ]
@@ -1372,7 +1384,7 @@
             "swiftmodules": [],
             "test_host": null
         },
-        "//Utils:Utils ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "//Utils:Utils ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "CLANG_CXX_LANGUAGE_STANDARD": "c++0x",
@@ -1380,7 +1392,6 @@
                 "ENABLE_BITCODE": false,
                 "GCC_PREPROCESSOR_DEFINITIONS": [
                     "_FORTIFY_SOURCE=1",
-                    "DEBUG",
                     "__DATE__=\"redacted\"",
                     "__TIMESTAMP__=\"redacted\"",
                     "__TIME__=\"redacted\""
@@ -1392,6 +1403,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -1403,6 +1415,7 @@
                     "-Wthread-safety",
                     "-Wself-assign",
                     "-fno-omit-frame-pointer",
+                    "-g",
                     "-no-canonical-prefixes",
                     "-pthread",
                     "-no-canonical-prefixes",
@@ -1422,9 +1435,9 @@
                 "SWIFT_OPTIMIZATION_LEVEL": "-Onone",
                 "SWIFT_VERSION": "5"
             },
-            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [
-                "//CoreUtilsObjC:CoreUtilsObjC ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd"
+                "//CoreUtilsObjC:CoreUtilsObjC ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd"
             ],
             "frameworks": [],
             "info_plist": null,
@@ -1443,7 +1456,7 @@
             "modulemaps": [],
             "name": "Utils",
             "outputs": {},
-            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Utils",
+            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Utils",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -1453,7 +1466,7 @@
             "product": {
                 "name": "Utils",
                 "path": {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/Utils/libUtils.a",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/Utils/libUtils.a",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.library.static"
@@ -1470,14 +1483,14 @@
                 "includes": [
                     "CoreUtilsObjC",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/CoreUtilsObjC",
                         "t": "g"
                     }
                 ],
                 "quote_includes": [
                     ".",
                     {
-                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin",
+                        "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin",
                         "t": "g"
                     }
                 ]
@@ -1485,7 +1498,7 @@
             "swiftmodules": [],
             "test_host": null
         },
-        "@examples_ios_app_external//:ExternalResources ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+        "@examples_ios_app_external//:ExternalResources ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
         {
             "build_settings": {
                 "GENERATE_INFOPLIST_FILE": true,
@@ -1494,7 +1507,7 @@
                 "PRODUCT_NAME": "ExternalResources",
                 "SUPPORTED_PLATFORMS": "iphonesimulator"
             },
-            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd",
+            "configuration": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd",
             "dependencies": [],
             "frameworks": [],
             "info_plist": null,
@@ -1525,7 +1538,7 @@
             "modulemaps": [],
             "name": "ExternalResources",
             "outputs": {},
-            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/external/examples_ios_app_external",
+            "package_bin_dir": "bazel-out/ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/external/examples_ios_app_external",
             "platform": {
                 "arch": "x86_64",
                 "environment": "Simulator",
@@ -1535,7 +1548,7 @@
             "product": {
                 "name": "ExternalResources",
                 "path": {
-                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-fastbuild-ST-d3e756bfe7fd/bin/external/examples_ios_app_external/ExternalResources.bundle",
+                    "_": "ios-x86_64-min15.0-applebin_ios-ios_x86_64-dbg-ST-d3e756bfe7fd/bin/external/examples_ios_app_external/ExternalResources.bundle",
                     "t": "g"
                 },
                 "type": "com.apple.product-type.bundle"

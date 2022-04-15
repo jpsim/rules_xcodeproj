@@ -26,6 +26,7 @@ load(
 load(":info_plists.bzl", "info_plists")
 load(":input_files.bzl", "input_files")
 load(":opts.bzl", "create_opts_search_paths", "process_opts")
+load(":output_files.bzl", "output_files")
 load(":platform.bzl", "process_platform")
 load(
     ":providers.bzl",
@@ -167,6 +168,7 @@ def _processed_target(
         dependencies,
         inputs,
         linker_inputs,
+        outputs,
         potential_target_merges,
         required_links,
         resource_bundles,
@@ -183,6 +185,8 @@ def _processed_target(
         inputs: A value as returned from `input_files.collect()` that will
             provide values for the `XcodeProjInfo.inputs` field.
         linker_inputs: A `depset` of `LinkerInput`s for this target.
+        outputs: A value as returned from `output_files.collect()` that will
+            provide values for the `XcodeProjInfo.outputs` field.
         potential_target_merges: An optional `list` of `struct`s that will be in
             the `XcodeProjInfo.potential_target_merges` `depset`.
         required_links: An optional `list` of strings that will be in the
@@ -204,6 +208,7 @@ def _processed_target(
         dependencies = dependencies,
         inputs = inputs,
         linker_inputs = linker_inputs,
+        outputs = outputs,
         potential_target_merges = potential_target_merges,
         required_links = required_links,
         resource_bundles = resource_bundles,
@@ -236,8 +241,7 @@ def _xcode_target(
         inputs,
         links,
         info_plist,
-        dependencies,
-        outputs):
+        dependencies):
     """Generates the partial json string representation of an Xcode target.
 
     Args:
@@ -271,7 +275,6 @@ def _xcode_target(
             against.
         info_plist: A value as returned by `files.file_path()` or `None`.
         dependencies: A `list` of `id`s of targets that this target depends on.
-        outputs: The value returned from `targets.get_outputs()`.
 
     Returns:
         An element of a json array string. This should be wrapped with `"[{}]"`
@@ -304,7 +307,6 @@ def _xcode_target(
         links = [file_path_to_dto(fp) for fp in links],
         info_plist = file_path_to_dto(info_plist),
         dependencies = dependencies,
-        outputs = outputs,
     ))
 
     # Since we use a custom dictionary key type in
@@ -491,6 +493,11 @@ def _process_top_level_target(*, ctx, target, bundle_info, transitive_infos):
         additional_files = additional_files,
         transitive_infos = transitive_infos,
     )
+    outputs = output_files.collect(
+        swift_info = swift_info,
+        id = id,
+        transitive_infos = transitive_infos,
+    )
 
     if len(library_dep_targets) == 1 and not inputs.srcs:
         mergeable_target = library_dep_targets[0]
@@ -623,6 +630,7 @@ The xcodeproj rule requires {} rules to have a single library dep. {} has {}.\
         dependencies = dependencies,
         inputs = inputs,
         linker_inputs = linker_inputs,
+        outputs = outputs,
         potential_target_merges = potential_target_merges,
         required_links = required_links,
         resource_bundles = resource_bundles,
@@ -664,7 +672,6 @@ The xcodeproj rule requires {} rules to have a single library dep. {} has {}.\
             links = links,
             info_plist = info_plist,
             dependencies = dependencies,
-            outputs = targets.get_outputs(target),
         ),
     )
 
@@ -768,6 +775,11 @@ def _process_library_target(*, ctx, target, transitive_infos):
         additional_files = modulemaps.files,
         transitive_infos = transitive_infos,
     )
+    outputs = output_files.collect(
+        swift_info = swift_info,
+        id = id,
+        transitive_infos = transitive_infos,
+    )
 
     resource_bundles = resource_bundle_products.collect(
         owner = resource_owner,
@@ -796,6 +808,7 @@ def _process_library_target(*, ctx, target, transitive_infos):
         dependencies = dependencies,
         inputs = inputs,
         linker_inputs = linker_inputs,
+        outputs = outputs,
         potential_target_merges = None,
         required_links = None,
         resource_bundles = resource_bundles,
@@ -828,7 +841,6 @@ def _process_library_target(*, ctx, target, transitive_infos):
             links = [],
             info_plist = None,
             dependencies = dependencies,
-            outputs = targets.get_outputs(target),
         ),
     )
 
@@ -903,6 +915,11 @@ def _process_resource_target(*, ctx, target, transitive_infos):
         owner = resource_owner,
         transitive_infos = transitive_infos,
     )
+    outputs = output_files.collect(
+        swift_info = None,
+        id = id,
+        transitive_infos = transitive_infos,
+    )
 
     resource_bundles = resource_bundle_products.collect(
         bundle_path = bundle_path,
@@ -928,6 +945,7 @@ def _process_resource_target(*, ctx, target, transitive_infos):
         dependencies = dependencies,
         inputs = inputs,
         linker_inputs = linker_inputs,
+        outputs = outputs,
         potential_target_merges = None,
         required_links = None,
         resource_bundles = resource_bundles,
@@ -960,7 +978,6 @@ def _process_resource_target(*, ctx, target, transitive_infos):
             links = [],
             info_plist = None,
             dependencies = dependencies,
-            outputs = targets.get_outputs(target),
         ),
     )
 
@@ -990,13 +1007,6 @@ def _process_non_xcode_target(*, ctx, target, transitive_infos):
 
     attrs_info = target[InputFileAttributesInfo]
     resource_owner = None
-    inputs = input_files.collect(
-        ctx = ctx,
-        target = target,
-        attrs_info = attrs_info,
-        owner = resource_owner,
-        transitive_infos = transitive_infos,
-    )
 
     return _processed_target(
         attrs_info = attrs_info,
@@ -1004,8 +1014,15 @@ def _process_non_xcode_target(*, ctx, target, transitive_infos):
             attrs_info = attrs_info,
             transitive_infos = transitive_infos,
         ),
-        inputs = inputs,
+        inputs = input_files.collect(
+            ctx = ctx,
+            target = target,
+            attrs_info = attrs_info,
+            owner = resource_owner,
+            transitive_infos = transitive_infos,
+        ),
         linker_inputs = linker_inputs,
+        outputs = output_files.merge(transitive_infos = transitive_infos),
         potential_target_merges = None,
         required_links = None,
         resource_bundles = resource_bundle_products.collect(
@@ -1054,6 +1071,7 @@ def _target_info_fields(
         dependencies,
         inputs,
         linker_inputs,
+        outputs,
         potential_target_merges,
         required_links,
         resource_bundles,
@@ -1070,6 +1088,7 @@ def _target_info_fields(
         dependencies: Maps to the `XcodeProjInfo.dependencies` field.
         inputs: Maps to the `XcodeProjInfo.inputs` field.
         linker_inputs: Maps to the `XcodeProjInfo.linker_inputs` field.
+        outputs: Maps to the `XcodeProjInfo.outputs` field.
         potential_target_merges: Maps to the
             `XcodeProjInfo.potential_target_merges` field.
         required_links: Maps to the `XcodeProjInfo.required_links` field.
@@ -1088,6 +1107,7 @@ def _target_info_fields(
         *   `generated_inputs`
         *   `inputs`
         *   `linker_inputs`
+        *   `outputs`
         *   `potential_target_merges`
         *   `required_links`
         *   `resource_bundles`
@@ -1101,6 +1121,7 @@ def _target_info_fields(
         "dependencies": dependencies,
         "inputs": inputs,
         "linker_inputs": linker_inputs,
+        "outputs": outputs,
         "potential_target_merges": potential_target_merges,
         "required_links": required_links,
         "resource_bundles": resource_bundles,
@@ -1140,6 +1161,9 @@ def _skip_target(*, target, transitive_infos):
                 info.linker_inputs
                 for _, info in transitive_infos
             ],
+        ),
+        outputs = output_files.merge(
+            transitive_infos = transitive_infos,
         ),
         potential_target_merges = depset(
             transitive = [
@@ -1441,6 +1465,7 @@ def _process_target(*, ctx, target, transitive_infos):
         dependencies = processed_target.dependencies,
         inputs = processed_target.inputs,
         linker_inputs = processed_target.linker_inputs,
+        outputs = processed_target.outputs,
         potential_target_merges = depset(
             processed_target.potential_target_merges,
             transitive = [
